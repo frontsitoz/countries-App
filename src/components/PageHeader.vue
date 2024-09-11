@@ -1,6 +1,6 @@
 <template>
-  <div class="flex justify-between items-center py-8 px-4 bg-blue-100">
-    <h1 class="text-3xl font-bold tracking-widest text-gray-500">Pais</h1>
+  <div class="flex justify-between items-center py-8 px-6 bg-blue-100">
+    <h1 class="text-3xl font-bold tracking-widest text-gray-500 pl-5">Pais</h1>
     <div class="flex items-center space-x-2">
       <input
         type="text"

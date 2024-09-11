@@ -1,7 +1,12 @@
 import axios from "axios";
 
-const instance = axios.create({
-    baseURL: "https://restcountries.com/v3.1/"
+const pixabayInstance = axios.create({
+    baseURL: "https://pixabay.com/api/",
+    params:{
+        key:"45896069-ae916ddbb0007c3d299636492",
+        image_type:"photo",
+        safesearch: true,
+    }
 })
 
-export default instance;
+export default pixabayInstance;
